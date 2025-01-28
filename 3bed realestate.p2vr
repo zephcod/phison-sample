@@ -578,8 +578,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-304.98</pan>
-            <tilt>-46.83</tilt>
+            <pan>-303.08</pan>
+            <tilt>-46.58</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -613,7 +613,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_6_-_C.bath.png</filename>
+        <filename>../v2/d_pano_6_-_C.bath-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -671,7 +671,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_7_-_Bedroom_1.png</filename>
+        <filename>../v2/d_pano_7_-_Bedroom_1-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -729,7 +729,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_8_-_Linen.png</filename>
+        <filename>../v2/d_pano_8_-_Linen-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -828,6 +828,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-205.91</pan>
+            <tilt>-35.48</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>12.5</pan>
+            <tilt>-0.9</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>መኝታ ክፍል 1 </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>12.5/-0.9/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -839,7 +865,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_9_-_Bedroom_2.png</filename>
+        <filename>../v2/d_pano_9_-_Bedroom_2-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -862,8 +888,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-193.17</pan>
-            <tilt>-28.78</tilt>
+            <pan>-183.32</pan>
+            <tilt>-36.56</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -886,6 +912,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-179.09</pan>
+            <tilt>-22.9</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-86.6</pan>
+            <tilt>4.2</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>ዋና መኝታ ቤት</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>-86.6/4.2/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -897,7 +949,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_10_-_M.bedroom_entrance.png</filename>
+        <filename>../v2/d_pano_10_-_M.bedroom_entrance-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -972,8 +1024,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-17.97</pan>
-            <tilt>-45.79</tilt>
+            <pan>-17.96</pan>
+            <tilt>-45.88</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1007,7 +1059,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_11_-_M.bed.png</filename>
+        <filename>../v2/d_pano_11_-_M.bed-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1054,6 +1106,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-93.8</pan>
+            <tilt>-38.37</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-116.2</pan>
+            <tilt>-1.8</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>ዋና መታጠቢያ ክፍል </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node16}</url>
+          <target>-116.2/-1.8/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -1065,7 +1143,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_12_-_M.bath.png</filename>
+        <filename>../v2/d_pano_12_-_M.bath-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1112,6 +1190,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-182.8</pan>
+            <tilt>-25.54</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>113.6</pan>
+            <tilt>-0.8</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>ማከማቻ ሳጥን </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node12}</url>
+          <target>113.6/-0.8/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -1123,7 +1227,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_13_-_Powder_room.png</filename>
+        <filename>../v2/d_pano_13_-_Powder_room-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1181,7 +1285,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_14_-_Guest_Helper_.png</filename>
+        <filename>../v2/d_pano_14_-_Guest_Helper_-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1265,7 +1369,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v1/a_pano_15_-_G.bath.png</filename>
+        <filename>../v2/d_pano_15_-_G.bath-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
