@@ -7,17 +7,39 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/c_pano_1_-_Foyer-topaz.jpeg</filename>
+        <filename>../v3/a_pano_1_-_Foyer-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-91.5221</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-02-04T19:06:18</capturedatetime>
@@ -26,13 +48,18 @@
         <title>መግቢያ</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>1110</x>
+          <y>1827</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-9.98</pan>
-            <tilt>-19.31</tilt>
+            <pan>-3.56</pan>
+            <tilt>-18.8</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -57,8 +84,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-142.2</pan>
-            <tilt>-43.37</tilt>
+            <pan>-144.97</pan>
+            <tilt>-44.38</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -83,8 +110,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-33.42</pan>
-            <tilt>-40.89</tilt>
+            <pan>-27.12</pan>
+            <tilt>-39.67</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -109,8 +136,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-9.08</pan>
-            <tilt>-10.1</tilt>
+            <pan>-7.44</pan>
+            <tilt>-9.59</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -144,17 +171,39 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/c_pano_2_-_Dining-topaz.jpeg</filename>
+        <filename>../v3/a_pano_2_-_Dining-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-73.1784</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-02-04T19:07:11</capturedatetime>
@@ -163,6 +212,11 @@
         <title>መዓድ ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>724</x>
+          <y>1800</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -194,8 +248,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-175.27</pan>
-            <tilt>-21.01</tilt>
+            <pan>-162.42</pan>
+            <tilt>-20.54</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -220,8 +274,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-93.2</pan>
-            <tilt>-21.59</tilt>
+            <pan>-84.85</pan>
+            <tilt>-9.88</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -244,6 +298,58 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-157.44</pan>
+            <tilt>-14.78</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-76.3</pan>
+            <tilt>-3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>1</id>
+          <title>የእንግዳ / የረዳት ክፍል </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node18}</url>
+          <target>-76.3/-3.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-146.23</pan>
+            <tilt>-26.57</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>109.8</pan>
+            <tilt>-0.2</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>1</id>
+          <title>መፀዳጃ ክፍል</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node17}</url>
+          <target>109.8/-0.2/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -255,17 +361,39 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/c_pano_3_-_Living-topaz.jpeg</filename>
+        <filename>../v3/a_pano_3_-_Living-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-24.5713</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-02-04T19:06:43</capturedatetime>
@@ -274,6 +402,11 @@
         <title>መኖሪያ / ማረፊያ ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>373</x>
+          <y>1724</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -305,8 +438,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-126.28</pan>
-            <tilt>-21.15</tilt>
+            <pan>-129.3</pan>
+            <tilt>-19.61</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -331,8 +464,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-123.8</pan>
-            <tilt>-10.33</tilt>
+            <pan>-122.99</pan>
+            <tilt>-10.55</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -392,17 +525,39 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/c_pano_4_-_Kitchen-topaz.jpeg</filename>
+        <filename>../v3/a_pano_4_-_Kitchen-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-29.552</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-02-04T17:31:24</capturedatetime>
@@ -411,6 +566,11 @@
         <title>ኩሽና</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>776</x>
+          <y>1484</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -442,8 +602,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-222.63</pan>
-            <tilt>-23.8</tilt>
+            <pan>-187.54</pan>
+            <tilt>-19.82</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -483,11 +643,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-0.823071</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-12-08T14:17:01</capturedatetime>
@@ -495,6 +677,11 @@
         <title>መተላለፊያ</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>522</x>
+          <y>1209</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -552,8 +739,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-192.41</pan>
-            <tilt>-14.97</tilt>
+            <pan>-192.34</pan>
+            <tilt>-15.07</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -619,11 +806,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>87.6662</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-12-08T14:18:14</capturedatetime>
@@ -631,6 +840,11 @@
         <title>የጋራ መታጠቢያ ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>724</x>
+          <y>1206</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -677,11 +891,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-140.017</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-12-08T14:19:22</capturedatetime>
@@ -689,6 +925,11 @@
         <title>መኝታ ክፍል 1 </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>391</x>
+          <y>1144</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -735,11 +976,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0.0886877</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-12-08T14:20:29</capturedatetime>
@@ -747,6 +1010,11 @@
         <title>ማከማቻ ሳጥን </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>510</x>
+          <y>937</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -854,6 +1122,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-185.9</pan>
+            <tilt>-11.3</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>143.6</pan>
+            <tilt>-5.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>3</id>
+          <title>መኖሪያ / ማረፊያ ክፍል</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <target>143.6/-5.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -871,11 +1165,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-71.6714</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-12-08T14:21:51</capturedatetime>
@@ -883,6 +1199,11 @@
         <title>መኝታ ክፍል 2</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>329</x>
+          <y>883</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -955,11 +1276,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>42.4737</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2024-12-08T14:22:46</capturedatetime>
@@ -967,6 +1310,11 @@
         <title>ዋና መኝታ ቤት</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>649</x>
+          <y>994</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1065,11 +1413,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>64.6194</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2025-01-25T19:29:07</capturedatetime>
@@ -1077,6 +1447,11 @@
         <title>ዋና መኝታ ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>685</x>
+          <y>812</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1149,11 +1524,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>64.3451</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2025-01-25T19:29:55</capturedatetime>
@@ -1161,6 +1558,11 @@
         <title>ዋና መታጠቢያ ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>784</x>
+          <y>927</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1227,17 +1629,39 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_13_-_Powder_room-topaz.jpeg</filename>
+        <filename>../v3/a_pano_13_-_Powder_room-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>61.215</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2025-01-25T19:30:46</capturedatetime>
@@ -1245,13 +1669,18 @@
         <title>መፀዳጃ ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>1018</x>
+          <y>1672</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-85</pan>
-            <tilt>-51.94</tilt>
+            <pan>-106.52</pan>
+            <tilt>-48.21</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1285,17 +1714,39 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_14_-_Guest_Helper_-topaz.jpeg</filename>
+        <filename>../v3/a_pano_14_-_Guest_Helper_-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>17.8289</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2025-01-25T19:31:36</capturedatetime>
@@ -1303,13 +1754,18 @@
         <title>የእንግዳ / የረዳት ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>1216</x>
+          <y>1684</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-167.27</pan>
-            <tilt>-63.95</tilt>
+            <pan>-171.07</pan>
+            <tilt>-63.46</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1334,8 +1790,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-62.87</pan>
-            <tilt>-55.41</tilt>
+            <pan>-55.55</pan>
+            <tilt>-56.62</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1369,17 +1825,39 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_15_-_G.bath-topaz.jpeg</filename>
+        <filename>../v3/a_pano_15_-_G.bath-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>56.2916</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2025-01-25T19:32:21</capturedatetime>
@@ -1387,13 +1865,18 @@
         <title>የእንግዳ መታጠቢያ ክፍል </title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>1296</x>
+          <y>1680</y>
+        </floorplancoordinates>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-193.92</pan>
-            <tilt>-56.89</tilt>
+            <pan>-183.23</pan>
+            <tilt>-58.67</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1442,13 +1925,11 @@
     </userdata>
     <floorplans>
       <floorplan>
-        <id>FloorPlan01</id>
-        <floorplanfilename>../renders/pano/pano1.jpg</floorplanfilename>
+        <id>plan01</id>
+        <floorplanfilename>C:/Users/SOF-Ongoing/LOC 2025 - Jan 21 - Real Estate Mockup/Data/floorplan.png</floorplanfilename>
         <type>file</type>
-        <lastmodified>2024-02-03T22:29:25</lastmodified>
-        <floorplantitle>Bathroom Floor Plan</floorplantitle>
-        <floorplantags>GF</floorplantags>
-        <floorplannorth>220</floorplannorth>
+        <lastmodified>2025-01-30T11:48:45</lastmodified>
+        <floorplanoutputformat>1</floorplanoutputformat>
       </floorplan>
     </floorplans>
     <hotspots/>
