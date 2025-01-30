@@ -399,7 +399,7 @@
         <capturedatetime>2024-02-04T19:06:43</capturedatetime>
         <datetime>2/4/2024 7:06 PM</datetime>
         <tags>pano</tags>
-        <title>መኖሪያ / ማረፊያ ክፍል </title>
+        <title>መኖሪያ / ማረፊያ ክፍል</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
         <floorplancoordinates>
@@ -513,6 +513,26 @@
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-200.32/21.83|-249.62/16.01|-249.72/-8.49|-200.28/-11.75</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>https://youtu.be/0QJW5Np4Goo</url>
+          <target>_parent</target>
         </hotspot>
       </hotspots>
       <output/>
@@ -674,7 +694,7 @@
       <userdata>
         <capturedatetime>2024-12-08T14:17:01</capturedatetime>
         <tags>pano</tags>
-        <title>መተላለፊያ</title>
+        <title>ማለፊያ</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
         <floorplancoordinates>
@@ -862,7 +882,7 @@
           <polygon/>
           <type>point</type>
           <id>2</id>
-          <title>መተላለፊያ</title>
+          <title>ማለፊያ</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
@@ -935,8 +955,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-232.82</pan>
-            <tilt>-48.79</tilt>
+            <pan>-241.4</pan>
+            <tilt>-41.81</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -947,7 +967,7 @@
           <polygon/>
           <type>point</type>
           <id>2</id>
-          <title>መተላለፊያ</title>
+          <title>ማለፊያ</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
@@ -1084,7 +1104,7 @@
           <polygon/>
           <type>point</type>
           <id>2</id>
-          <title>መተላለፊያ</title>
+          <title>ማለፊያ</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
@@ -1928,8 +1948,9 @@
         <id>plan01</id>
         <floorplanfilename>C:/Users/SOF-Ongoing/LOC 2025 - Jan 21 - Real Estate Mockup/Data/floorplan.png</floorplanfilename>
         <type>file</type>
-        <lastmodified>2025-01-30T11:48:45</lastmodified>
+        <lastmodified>2025-01-30T12:14:16</lastmodified>
         <floorplanoutputformat>1</floorplanoutputformat>
+        <floorplanoutputbackgroundcolor>#353535,0</floorplanoutputbackgroundcolor>
       </floorplan>
     </floorplans>
     <hotspots/>
@@ -1964,10 +1985,12 @@
         </flyintransition>
         <hotspottext/>
         <hotspotstyle/>
-        <webvr/>
+        <webvr>
+          <enabled>0</enabled>
+        </webvr>
         <tilesize>1000</tilesize>
         <filename>pano.xml</filename>
-        <skinfile>silhouette_v6.ggsk</skinfile>
+        <skinfile>silhouette_v6_zeph.ggsk</skinfile>
         <hideaboutbox>1</hideaboutbox>
         <projectionscontext>1</projectionscontext>
         <quality>100</quality>
@@ -1984,6 +2007,8 @@
           <value id="Tooltip Text Background">838860800</value>
           <value id="Tooltip Text Foreground">4294967295</value>
         </skincolorsconfiguration>
+        <dblclickfullscreen>1</dblclickfullscreen>
+        <invertwheel>1</invertwheel>
       </htmlcss>
     </output>
     <streetview/>
