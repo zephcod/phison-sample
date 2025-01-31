@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="18043" version="6.1.11">
+<pano2vrconfig version="6.1.11" rev="18043">
   <tour>
     <start>node6</start>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/a_pano_1_-_Foyer-topaz.jpeg</filename>
+        <filename>../v3/B_pano_1_-_Foyer-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -171,7 +171,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/a_pano_2_-_Dining-topaz.jpeg</filename>
+        <filename>../v3/B_pano_2_-_Dining-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -300,8 +300,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-157.44</pan>
-            <tilt>-14.78</tilt>
+            <pan>-155.88</pan>
+            <tilt>-14.65</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -361,7 +361,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/a_pano_3_-_Living-topaz.jpeg</filename>
+        <filename>../v3/B_pano_3_-_Living-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -515,37 +515,193 @@
           <height>0</height>
         </hotspot>
         <hotspot>
-          <position/>
+          <position>
+            <pan>-345.31</pan>
+            <tilt>-11.79</tilt>
+            <fov>10</fov>
+          </position>
           <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
+            <pan>171.6</pan>
+            <tilt>-1.7</tilt>
+            <fov>70</fov>
           </next>
-          <polygon>
-            <polystring>-200.32/21.83|-249.62/16.01|-249.72/-8.49|-200.28/-11.75</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <linktype>url</linktype>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>ሶፋ</title>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>https://youtu.be/0QJW5Np4Goo</url>
-          <target>_parent</target>
+          <url>{node20}</url>
+          <target>171.6/-1.7/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
         </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-229.31</pan>
+            <tilt>5.11</tilt>
+          </position>
+          <videorect>
+            <rotx>5.5</rotx>
+            <roty>-24</roty>
+            <rotz>2.2</rotz>
+            <fov>51.63</fov>
+            <stretch>101</stretch>
+            <dimx>1280</dimx>
+            <dimy>720</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element01</id>
+          <filename>C:/Users/SOF-Ongoing/LOC 2025 - Jan 21 - Real Estate Mockup/Data/InteriorMockAwajET.mp4</filename>
+          <mode>5</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>0</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>0</loop>
+          <copyfile>1</copyfile>
+          <clickmode>playstop</clickmode>
+          <handcursor>1</handcursor>
+        </sound>
+      </sounds>
       <id>node8</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/a_pano_4_-_Kitchen-topaz.jpeg</filename>
+        <filename>../v3/B_pano_3b_-_Sofa-topaz.jpeg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>-216.087</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2025-01-31T09:30:25</capturedatetime>
+        <datetime>1/31/2025 9:30 AM</datetime>
+        <tags>v3</tags>
+        <title>ሶፋ</title>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <floorplancoordinates>
+          <floorplanid>plan01</floorplanid>
+          <x>262</x>
+          <y>1448</y>
+        </floorplancoordinates>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-18.25</pan>
+            <tilt>-13.12</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>161</pan>
+            <tilt>-3.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>መኖሪያ / ማረፊያ </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <target>161.0/-3.5/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>336.51</pan>
+            <tilt>7.01</tilt>
+          </position>
+          <videorect>
+            <rotx>8</rotx>
+            <roty>20</roty>
+            <rotz>-2.8</rotz>
+            <fov>18.8</fov>
+            <stretch>101</stretch>
+            <dimx>1280</dimx>
+            <dimy>720</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Element01</id>
+          <filename>C:/Users/SOF-Ongoing/LOC 2025 - Jan 21 - Real Estate Mockup/Data/InteriorMockAwajET.mp4</filename>
+          <mode>5</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>0</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>0</loop>
+          <copyfile>1</copyfile>
+          <clickmode>playstop</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
+      </sounds>
+      <id>node20</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>../v3/B_pano_4_-_Kitchen-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1649,7 +1805,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/a_pano_13_-_Powder_room-topaz.jpeg</filename>
+        <filename>../v3/B_pano_13_-_Powder_room-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1734,7 +1890,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/a_pano_14_-_Guest_Helper_-topaz.jpeg</filename>
+        <filename>../v3/B_pano_14_-_Guest_Helper_-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1845,7 +2001,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/a_pano_15_-_G.bath-topaz.jpeg</filename>
+        <filename>../v3/B_pano_15_-_G.bath-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
