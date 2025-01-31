@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="6.1.11" rev="18043">
+<pano2vrconfig rev="18043" version="6.1.11">
   <tour>
     <start>node6</start>
     <panorama>
@@ -889,8 +889,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-358.05</pan>
-            <tilt>-32.25</tilt>
+            <pan>-358.08</pan>
+            <tilt>-32.33</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -901,7 +901,7 @@
           <polygon/>
           <type>point</type>
           <id>Point04</id>
-          <title>ማከማቻ ሳጥን </title>
+          <title>ማህደር</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node12}</url>
@@ -1050,6 +1050,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-196.24</pan>
+            <tilt>-19</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-62.4</pan>
+            <tilt>-0.2</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>መኝታ ክፍል 1 </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>-62.4/-0.2/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -1135,6 +1161,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-238.77</pan>
+            <tilt>-19.75</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-5.2</pan>
+            <tilt>-2</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>የጋራ መታጠቢያ ክፍል </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>-5.2/-2.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -1183,7 +1235,7 @@
       <userdata>
         <capturedatetime>2024-12-08T14:20:29</capturedatetime>
         <tags>pano</tags>
-        <title>ማከማቻ ሳጥን </title>
+        <title>ማህደር</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
         <floorplancoordinates>
@@ -1397,7 +1449,7 @@
           <polygon/>
           <type>point</type>
           <id>Point04</id>
-          <title>ማከማቻ ሳጥን </title>
+          <title>ማህደር</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node12}</url>
@@ -1496,8 +1548,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-216.22</pan>
-            <tilt>-42.09</tilt>
+            <pan>-216.24</pan>
+            <tilt>-42.2</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1508,7 +1560,7 @@
           <polygon/>
           <type>point</type>
           <id>Point04</id>
-          <title>ማከማቻ ሳጥን </title>
+          <title>ማህደር</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node12}</url>
