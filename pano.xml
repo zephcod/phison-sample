@@ -1,488 +1,506 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18043" appversion="6.1.11" start="node6">
+<tour apprev="18043" start="node6" appversion="6.1.11">
   <panorama id="node6" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-91.5221" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node6" latitude="" description="" datetime="2/4/2024 7:06 PM" copyright="" info="" longitude="" title="መግቢያ" source="" author="" comment="" customnodeid="" tags="pano" heading="-91.5221">
-      <mapcoords y_floorplan_percent="92.6001" x="1.52435" x_floorplan_percent="73.6074" y="-2.509" mapid="plan01"/>
+    <userdata info="" heading="-91.5221" source="" latitude="" comment="" datetime="2/4/2024 7:06 PM" nodeid="node6" title="መግቢያ" author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-2.509" x="1.52435" x_floorplan_percent="73.6074" mapid="plan01" y_floorplan_percent="92.6001"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="2" pan="-3.56" description="" target="5.3/-2.8/70.0" title="መዓድ ክፍል" url="{node7}" skinid="ht_node" tilt="-18.8"/>
-      <hotspot id="1" pan="-144.97" description="" target="-18.6/-0.2/70.0" title="የእንግዳ / የረዳት ክፍል " url="{node18}" skinid="ht_node" tilt="-44.38"/>
-      <hotspot id="1" pan="-27.12" description="" target="109.8/-0.2/70.0" title="መፀዳጃ ክፍል" url="{node17}" skinid="ht_node" tilt="-39.67"/>
-      <hotspot id="3" pan="-7.44" description="" target="55.2/-1.1/70.0" title="መኖሪያ / ማረፊያ ክፍል" url="{node8}" skinid="ht_node" tilt="-9.59"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="5.3/-2.8/70.0" id="2" pan="-3.56" title="መዓድ ክፍል" description="" url="{node7}" tilt="-18.8" skinid="ht_node"/>
+      <hotspot target="-18.6/-0.2/70.0" id="1" pan="-144.97" title="የእንግዳ / የረዳት ክፍል " description="" url="{node18}" tilt="-44.38" skinid="ht_node"/>
+      <hotspot target="109.8/-0.2/70.0" id="1" pan="-27.12" title="መፀዳጃ ክፍል" description="" url="{node17}" tilt="-39.67" skinid="ht_node"/>
+      <hotspot target="55.2/-1.1/70.0" id="3" pan="-7.44" title="መኖሪያ / ማረፊያ ክፍል" description="" url="{node8}" tilt="-9.59" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node7" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-73.1784" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node7" latitude="" description="" datetime="2/4/2024 7:07 PM" copyright="" info="" longitude="" title="መዓድ ክፍል " source="" author="" comment="" customnodeid="" tags="pano" heading="-73.1784">
-      <mapcoords y_floorplan_percent="91.2316" x="0.994263" x_floorplan_percent="48.0106" y="-2.47192" mapid="plan01"/>
+    <userdata info="" heading="-73.1784" source="" latitude="" comment="" datetime="2/4/2024 7:07 PM" nodeid="node7" title="መዓድ ክፍል " author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-2.47192" x="0.994263" x_floorplan_percent="48.0106" mapid="plan01" y_floorplan_percent="91.2316"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="3" pan="-357.59" description="" target="38.0/-1.0/70.0" title="መኖሪያ / ማረፊያ ክፍል" url="{node8}" skinid="ht_node" tilt="-20"/>
-      <hotspot id="1" pan="-162.42" description="" target="180.0/-1.5/70.0" title="መግቢያ" url="{node6}" skinid="ht_node" tilt="-20.54"/>
-      <hotspot id="Point01" pan="-84.85" description="" target="-29.4/0.1/70.0" title="ኩሽና" url="{node5}" skinid="ht_node" tilt="-9.88"/>
-      <hotspot id="1" pan="-155.88" description="" target="-76.3/-3.0/70.0" title="የእንግዳ / የረዳት ክፍል " url="{node18}" skinid="ht_node" tilt="-14.65"/>
-      <hotspot id="1" pan="-146.23" description="" target="109.8/-0.2/70.0" title="መፀዳጃ ክፍል" url="{node17}" skinid="ht_node" tilt="-26.57"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="38.0/-1.0/70.0" id="3" pan="-357.59" title="መኖሪያ / ማረፊያ ክፍል" description="" url="{node8}" tilt="-20" skinid="ht_node"/>
+      <hotspot target="180.0/-1.5/70.0" id="1" pan="-162.42" title="መግቢያ" description="" url="{node6}" tilt="-20.54" skinid="ht_node"/>
+      <hotspot target="-29.4/0.1/70.0" id="Point01" pan="-84.85" title="ኩሽና" description="" url="{node5}" tilt="-9.88" skinid="ht_node"/>
+      <hotspot target="-76.3/-3.0/70.0" id="1" pan="-155.88" title="የእንግዳ / የረዳት ክፍል " description="" url="{node18}" tilt="-14.65" skinid="ht_node"/>
+      <hotspot target="109.8/-0.2/70.0" id="1" pan="-146.23" title="መፀዳጃ ክፍል" description="" url="{node17}" tilt="-26.57" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node8" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-24.5713" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node8" latitude="" description="" datetime="2/4/2024 7:06 PM" copyright="" info="" longitude="" title="መኖሪያ / ማረፊያ ክፍል" source="" author="" comment="" customnodeid="" tags="pano" heading="-24.5713">
-      <mapcoords y_floorplan_percent="87.3796" x="0.512238" x_floorplan_percent="24.7347" y="-2.36755" mapid="plan01"/>
+    <userdata info="" heading="-24.5713" source="" latitude="" comment="" datetime="2/4/2024 7:06 PM" nodeid="node8" title="መኖሪያ / ማረፊያ ክፍል" author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-2.36755" x="0.512238" x_floorplan_percent="24.7347" mapid="plan01" y_floorplan_percent="87.3796"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="1" pan="-44.23" description="" target="-42.8/-3.0/70.0" title="መተላለፊያ ክፍል " url="{node9}" skinid="ht_node" tilt="-16.13"/>
-      <hotspot id="2" pan="-129.3" description="" target="-172.3/-3.8/70.0" title="መዓድ ክፍል" url="{node7}" skinid="ht_node" tilt="-19.61"/>
-      <hotspot id="1" pan="-122.99" description="" target="176.2/-0.5/70.0" title="መግቢያ" url="{node6}" skinid="ht_node" tilt="-10.55"/>
-      <hotspot id="Point01" pan="-85.85" description="" target="-109.5/-0.4/70.0" title="ኩሽና" url="{node5}" skinid="ht_node" tilt="-16.78"/>
-      <hotspot id="Point02" pan="-345.31" description="" target="171.6/-1.7/70.0" title="ሶፋ" url="{node20}" skinid="ht_node" tilt="-11.79"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="-42.8/-3.0/70.0" id="1" pan="-44.23" title="መተላለፊያ ክፍል " description="" url="{node9}" tilt="-16.13" skinid="ht_node"/>
+      <hotspot target="-172.3/-3.8/70.0" id="2" pan="-129.3" title="መዓድ ክፍል" description="" url="{node7}" tilt="-19.61" skinid="ht_node"/>
+      <hotspot target="176.2/-0.5/70.0" id="1" pan="-122.99" title="መግቢያ" description="" url="{node6}" tilt="-10.55" skinid="ht_node"/>
+      <hotspot target="-109.5/-0.4/70.0" id="Point01" pan="-85.85" title="ኩሽና" description="" url="{node5}" tilt="-16.78" skinid="ht_node"/>
+      <hotspot target="171.6/-1.7/70.0" id="Point02" pan="-345.31" title="ሶፋ" description="" url="{node20}" tilt="-11.79" skinid="ht_node"/>
     </hotspots>
     <media>
-      <video nodechangekeep="0" ambientlevel="0.000" height="720" tiltsize="10.000" field="90.000" tilt="5.110" pan="-229.310" fov="51.630" level="1.000" clickmode="2" loop="0" pansize="10.000" startmutedmobile="0" roty="-24.000" mode="5" rotx="5.500" id="Element01" rotz="2.200" stretch="1.010" width="1280" handcursor="1">
+      <video pansize="10.000" level="1.000" clickmode="2" nodechangekeep="0" tilt="5.110" startmutedmobile="0" field="90.000" handcursor="1" id="Element01" width="1280" rotx="5.500" tiltsize="10.000" stretch="1.010" rotz="2.200" ambientlevel="0.000" mode="5" pan="-229.310" fov="51.630" roty="-24.000" height="720" loop="0">
         <source url="media/InteriorMockAwajET.mp4"/>
       </video>
     </media>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node20" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-216.087" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node20" latitude="" description="" datetime="1/31/2025 9:30 AM" copyright="" info="" longitude="" title="ሶፋ" source="" author="" comment="" customnodeid="" tags="v3" heading="-216.087">
-      <mapcoords y_floorplan_percent="73.3908" x="0.359802" x_floorplan_percent="17.374" y="-1.98853" mapid="plan01"/>
+    <userdata info="" heading="-216.087" source="" latitude="" comment="" datetime="1/31/2025 9:30 AM" nodeid="node20" title="ሶፋ" author="" description="" longitude="" customnodeid="" copyright="" tags="v3">
+      <mapcoords y="-1.98853" x="0.359802" x_floorplan_percent="17.374" mapid="plan01" y_floorplan_percent="73.3908"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="Point01" pan="-18.25" description="" target="161.0/-3.5/70.0" title="መኖሪያ / ማረፊያ " url="{node8}" skinid="ht_node" tilt="-13.12"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="161.0/-3.5/70.0" id="Point01" pan="-18.25" title="መኖሪያ / ማረፊያ " description="" url="{node8}" tilt="-13.12" skinid="ht_node"/>
     </hotspots>
     <media>
-      <video nodechangekeep="0" ambientlevel="0.000" height="720" tiltsize="10.000" field="90.000" tilt="7.010" pan="336.510" fov="18.800" level="1.000" clickmode="2" loop="0" pansize="10.000" startmutedmobile="0" roty="20.000" mode="5" rotx="8.000" id="Element01" rotz="-2.800" stretch="1.010" width="1280" handcursor="0">
+      <video pansize="10.000" level="1.000" clickmode="2" nodechangekeep="0" tilt="7.010" startmutedmobile="0" field="90.000" handcursor="0" id="Element01" width="1280" rotx="8.000" tiltsize="10.000" stretch="1.010" rotz="-2.800" ambientlevel="0.000" mode="5" pan="336.510" fov="18.800" roty="20.000" height="720" loop="0">
         <source url="media/InteriorMockAwajET.mp4"/>
       </video>
     </media>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node5" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-29.552" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node5" latitude="" description="" datetime="2/4/2024 5:31 PM" copyright="" info="" longitude="" title="ኩሽና" source="" author="" comment="" customnodeid="" tags="pano" heading="-29.552">
-      <mapcoords y_floorplan_percent="75.2154" x="1.06567" x_floorplan_percent="51.4589" y="-2.03796" mapid="plan01"/>
+    <userdata info="" heading="-29.552" source="" latitude="" comment="" datetime="2/4/2024 5:31 PM" nodeid="node5" title="ኩሽና" author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-2.03796" x="1.06567" x_floorplan_percent="51.4589" mapid="plan01" y_floorplan_percent="75.2154"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="3" pan="-267.02" description="" target="120.6/3.5/70.0" title="መኖሪያ / ማረፊያ ክፍል" url="{node8}" skinid="ht_node" tilt="-18.45"/>
-      <hotspot id="2" pan="-187.54" description="" target="106.2/-3.1/70.0" title="መዓድ ክፍል" url="{node7}" skinid="ht_node" tilt="-19.82"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="120.6/3.5/70.0" id="3" pan="-267.02" title="መኖሪያ / ማረፊያ ክፍል" description="" url="{node8}" tilt="-18.45" skinid="ht_node"/>
+      <hotspot target="106.2/-3.1/70.0" id="2" pan="-187.54" title="መዓድ ክፍል" description="" url="{node7}" tilt="-19.82" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-0.823071" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node9" latitude="" description="" datetime="" copyright="" info="" longitude="" title="ማለፊያ" source="" author="" comment="" customnodeid="" tags="pano" heading="-0.823071">
-      <mapcoords y_floorplan_percent="61.2772" x="0.716858" x_floorplan_percent="34.6154" y="-1.66031" mapid="plan01"/>
+    <userdata info="" heading="-0.823071" source="" latitude="" comment="" datetime="" nodeid="node9" title="ማለፊያ" author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-1.66031" x="0.716858" x_floorplan_percent="34.6154" mapid="plan01" y_floorplan_percent="61.2772"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="Point03" pan="-87.43" description="" target="-2.2/-0.8/70.0" title="የጋራ መታጠቢያ ክፍል " url="{node10}" skinid="ht_node" tilt="-33.51"/>
-      <hotspot id="Point04" pan="-358.05" description="" target="0.0/0.0/70.0" title="ማከማቻ ሳጥን " url="{node12}" skinid="ht_node" tilt="-32.25"/>
-      <hotspot id="3" pan="-192.34" description="" target="143.6/-5.3/70.0" title="መኖሪያ / ማረፊያ ክፍል" url="{node8}" skinid="ht_node" tilt="-15.07"/>
-      <hotspot id="Point01" pan="-303.08" description="" target="28.4/-0.7/70.0" title="መኝታ ክፍል 1 " url="{node11}" skinid="ht_node" tilt="-46.58"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="-2.2/-0.8/70.0" id="Point03" pan="-94.83" title="የጋራ መታጠቢያ ክፍል " description="" url="{node10}" tilt="-33.06" skinid="ht_node"/>
+      <hotspot target="0.0/0.0/70.0" id="Point04" pan="-358.08" title="ማህደር" description="" url="{node12}" tilt="-32.33" skinid="ht_node"/>
+      <hotspot target="143.6/-5.3/70.0" id="3" pan="-192.34" title="መኖሪያ / ማረፊያ ክፍል" description="" url="{node8}" tilt="-15.07" skinid="ht_node"/>
+      <hotspot target="28.4/-0.7/70.0" id="Point01" pan="-303.08" title="መኝታ ክፍል 1 " description="" url="{node11}" tilt="-46.58" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node10" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="87.6662" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node10" latitude="" description="" datetime="" copyright="" info="" longitude="" title="የጋራ መታጠቢያ ክፍል " source="" author="" comment="" customnodeid="" tags="pano" heading="87.6662">
-      <mapcoords y_floorplan_percent="61.1252" x="0.994263" x_floorplan_percent="48.0106" y="-1.65619" mapid="plan01"/>
+    <userdata info="" heading="87.6662" source="" latitude="" comment="" datetime="" nodeid="node10" title="የጋራ መታጠቢያ ክፍል " author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-1.65619" x="0.994263" x_floorplan_percent="48.0106" mapid="plan01" y_floorplan_percent="61.1252"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="2" pan="-189.18" description="" target="88.8/-5.6/70.0" title="ማለፊያ" url="{node9}" skinid="ht_node" tilt="-27.68"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="88.8/-5.6/70.0" id="2" pan="-189.18" title="ማለፊያ" description="" url="{node9}" tilt="-27.68" skinid="ht_node"/>
+      <hotspot target="-62.4/-0.2/70.0" id="Point01" pan="-196.24" title="መኝታ ክፍል 1 " description="" url="{node11}" tilt="-19" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node11" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-140.017" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node11" latitude="" description="" datetime="" copyright="" info="" longitude="" title="መኝታ ክፍል 1 " source="" author="" comment="" customnodeid="" tags="pano" heading="-140.017">
-      <mapcoords y_floorplan_percent="57.9828" x="0.536957" x_floorplan_percent="25.9284" y="-1.57104" mapid="plan01"/>
+    <userdata info="" heading="-140.017" source="" latitude="" comment="" datetime="" nodeid="node11" title="መኝታ ክፍል 1 " author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-1.57104" x="0.536957" x_floorplan_percent="25.9284" mapid="plan01" y_floorplan_percent="57.9828"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="2" pan="-241.4" description="" target="-91.8/-3.9/70.0" title="ማለፊያ" url="{node9}" skinid="ht_node" tilt="-41.81"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="-91.8/-3.9/70.0" id="2" pan="-241.4" title="ማለፊያ" description="" url="{node9}" tilt="-41.81" skinid="ht_node"/>
+      <hotspot target="-5.2/-2.0/70.0" id="Point03" pan="-238.77" title="የጋራ መታጠቢያ ክፍል " description="" url="{node10}" tilt="-19.75" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node12" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0.0886877" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node12" latitude="" description="" datetime="" copyright="" info="" longitude="" title="ማከማቻ ሳጥን " source="" author="" comment="" customnodeid="" tags="pano" heading="0.0886877">
-      <mapcoords y_floorplan_percent="47.4911" x="0.700378" x_floorplan_percent="33.8196" y="-1.28677" mapid="plan01"/>
+    <userdata info="" heading="0.0886877" source="" latitude="" comment="" datetime="" nodeid="node12" title="ማህደር" author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-1.28677" x="0.700378" x_floorplan_percent="33.8196" mapid="plan01" y_floorplan_percent="47.4911"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="Point01" pan="-303.51" description="" target="-10.5/0.1/70.0" title="መኝታ ክፍል 2" url="{node13}" skinid="ht_node" tilt="-31.42"/>
-      <hotspot id="Point02" pan="-100.98" description="" target="-53.7/0.7/70.0" title="ዋና መኝታ ቤት" url="{node14}" skinid="ht_node" tilt="-46.53"/>
-      <hotspot id="2" pan="-180.06" description="" target="-179.4/-10.0/70.0" title="ማለፊያ" url="{node9}" skinid="ht_node" tilt="-34.76"/>
-      <hotspot id="Point01" pan="-205.91" description="" target="12.5/-0.9/70.0" title="መኝታ ክፍል 1 " url="{node11}" skinid="ht_node" tilt="-35.48"/>
-      <hotspot id="3" pan="-185.9" description="" target="143.6/-5.3/70.0" title="መኖሪያ / ማረፊያ ክፍል" url="{node8}" skinid="ht_node" tilt="-11.3"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="-10.5/0.1/70.0" id="Point01" pan="-303.51" title="መኝታ ክፍል 2" description="" url="{node13}" tilt="-31.42" skinid="ht_node"/>
+      <hotspot target="-53.7/0.7/70.0" id="Point02" pan="-100.98" title="ዋና መኝታ ቤት" description="" url="{node14}" tilt="-46.53" skinid="ht_node"/>
+      <hotspot target="-179.4/-10.0/70.0" id="2" pan="-180.06" title="ማለፊያ" description="" url="{node9}" tilt="-34.76" skinid="ht_node"/>
+      <hotspot target="12.5/-0.9/70.0" id="Point01" pan="-205.91" title="መኝታ ክፍል 1 " description="" url="{node11}" tilt="-35.48" skinid="ht_node"/>
+      <hotspot target="143.6/-5.3/70.0" id="3" pan="-185.9" title="መኖሪያ / ማረፊያ ክፍል" description="" url="{node8}" tilt="-11.3" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node13" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="-71.6714" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node13" latitude="" description="" datetime="" copyright="" info="" longitude="" title="መኝታ ክፍል 2" source="" author="" comment="" customnodeid="" tags="pano" heading="-71.6714">
-      <mapcoords y_floorplan_percent="44.7542" x="0.451813" x_floorplan_percent="21.817" y="-1.21262" mapid="plan01"/>
+    <userdata info="" heading="-71.6714" source="" latitude="" comment="" datetime="" nodeid="node13" title="መኝታ ክፍል 2" author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-1.21262" x="0.451813" x_floorplan_percent="21.817" mapid="plan01" y_floorplan_percent="44.7542"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="Point04" pan="-183.32" description="" target="-131.9/-2.6/70.0" title="ማከማቻ ሳጥን " url="{node12}" skinid="ht_node" tilt="-36.56"/>
-      <hotspot id="Point02" pan="-179.09" description="" target="-86.6/4.2/70.0" title="ዋና መኝታ ቤት" url="{node14}" skinid="ht_node" tilt="-22.9"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="-131.9/-2.6/70.0" id="Point04" pan="-183.32" title="ማህደር" description="" url="{node12}" tilt="-36.56" skinid="ht_node"/>
+      <hotspot target="-86.6/4.2/70.0" id="Point02" pan="-179.09" title="ዋና መኝታ ቤት" description="" url="{node14}" tilt="-22.9" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node14" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="42.4737" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node14" latitude="" description="" datetime="" copyright="" info="" longitude="" title="ዋና መኝታ ቤት" source="" author="" comment="" customnodeid="" tags="pano" heading="42.4737">
-      <mapcoords y_floorplan_percent="50.3801" x="0.891266" x_floorplan_percent="43.0371" y="-1.36505" mapid="plan01"/>
+    <userdata info="" heading="42.4737" source="" latitude="" comment="" datetime="" nodeid="node14" title="ዋና መኝታ ቤት" author="" description="" longitude="" customnodeid="" copyright="" tags="pano">
+      <mapcoords y="-1.36505" x="0.891266" x_floorplan_percent="43.0371" mapid="plan01" y_floorplan_percent="50.3801"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="Point04" pan="-216.22" description="" target="112.9/0.0/70.0" title="ማከማቻ ሳጥን " url="{node12}" skinid="ht_node" tilt="-42.09"/>
-      <hotspot id="Point04" pan="-322.83" description="" target="60.6/-2.3/70.0" title="ዋና መኝታ ክፍል " url="{node15}" skinid="ht_node" tilt="-31.9"/>
-      <hotspot id="Point04" pan="-17.96" description="" target="16.6/4.6/70.0" title="ዋና መታጠቢያ ክፍል " url="{node16}" skinid="ht_node" tilt="-45.88"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="112.9/0.0/70.0" id="Point04" pan="-216.24" title="ማህደር" description="" url="{node12}" tilt="-42.2" skinid="ht_node"/>
+      <hotspot target="60.6/-2.3/70.0" id="Point04" pan="-322.83" title="ዋና መኝታ ክፍል " description="" url="{node15}" tilt="-31.9" skinid="ht_node"/>
+      <hotspot target="16.6/4.6/70.0" id="Point04" pan="-17.96" title="ዋና መታጠቢያ ክፍል " description="" url="{node16}" tilt="-45.88" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node15" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="64.6194" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node15" latitude="" description="" datetime="" copyright="" info="" longitude="" title="ዋና መኝታ ክፍል " source="" author="" comment="" customnodeid="" tags="v1" heading="64.6194">
-      <mapcoords y_floorplan_percent="41.1556" x="0.940704" x_floorplan_percent="45.4244" y="-1.11511" mapid="plan01"/>
+    <userdata info="" heading="64.6194" source="" latitude="" comment="" datetime="" nodeid="node15" title="ዋና መኝታ ክፍል " author="" description="" longitude="" customnodeid="" copyright="" tags="v1">
+      <mapcoords y="-1.11511" x="0.940704" x_floorplan_percent="45.4244" mapid="plan01" y_floorplan_percent="41.1556"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="Point02" pan="-123.46" description="" target="-149.8/-1.8/70.0" title="ዋና መኝታ ቤት" url="{node14}" skinid="ht_node" tilt="-36.35"/>
-      <hotspot id="Point04" pan="-93.8" description="" target="-116.2/-1.8/70.0" title="ዋና መታጠቢያ ክፍል " url="{node16}" skinid="ht_node" tilt="-38.37"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="-149.8/-1.8/70.0" id="Point02" pan="-123.46" title="ዋና መኝታ ቤት" description="" url="{node14}" tilt="-36.35" skinid="ht_node"/>
+      <hotspot target="-116.2/-1.8/70.0" id="Point04" pan="-93.8" title="ዋና መታጠቢያ ክፍል " description="" url="{node16}" tilt="-38.37" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node16" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="64.3451" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node16" latitude="" description="" datetime="" copyright="" info="" longitude="" title="ዋና መታጠቢያ ክፍል " source="" author="" comment="" customnodeid="" tags="v1" heading="64.3451">
-      <mapcoords y_floorplan_percent="46.9843" x="1.07666" x_floorplan_percent="51.9894" y="-1.27304" mapid="plan01"/>
+    <userdata info="" heading="64.3451" source="" latitude="" comment="" datetime="" nodeid="node16" title="ዋና መታጠቢያ ክፍል " author="" description="" longitude="" customnodeid="" copyright="" tags="v1">
+      <mapcoords y="-1.27304" x="1.07666" x_floorplan_percent="51.9894" mapid="plan01" y_floorplan_percent="46.9843"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="Point02" pan="-202.84" description="" target="105.8/-1.6/70.0" title="ዋና መኝታ ቤት" url="{node14}" skinid="ht_node" tilt="-49.23"/>
-      <hotspot id="Point04" pan="-182.8" description="" target="113.6/-0.8/70.0" title="ማከማቻ ሳጥን " url="{node12}" skinid="ht_node" tilt="-25.54"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="105.8/-1.6/70.0" id="Point02" pan="-202.84" title="ዋና መኝታ ቤት" description="" url="{node14}" tilt="-49.23" skinid="ht_node"/>
+      <hotspot target="113.6/-0.8/70.0" id="Point04" pan="-182.8" title="ማከማቻ ሳጥን " description="" url="{node12}" tilt="-25.54" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node17" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="61.215" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node17" latitude="" description="" datetime="" copyright="" info="" longitude="" title="መፀዳጃ ክፍል " source="" author="" comment="" customnodeid="" tags="v1" heading="61.215">
-      <mapcoords y_floorplan_percent="84.744" x="1.39801" x_floorplan_percent="67.5066" y="-2.29614" mapid="plan01"/>
+    <userdata info="" heading="61.215" source="" latitude="" comment="" datetime="" nodeid="node17" title="መፀዳጃ ክፍል " author="" description="" longitude="" customnodeid="" copyright="" tags="v1">
+      <mapcoords y="-2.29614" x="1.39801" x_floorplan_percent="67.5066" mapid="plan01" y_floorplan_percent="84.744"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="1" pan="-106.52" description="" target="81.0/-1.5/70.0" title="መግቢያ" url="{node6}" skinid="ht_node" tilt="-48.21"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="81.0/-1.5/70.0" id="1" pan="-106.52" title="መግቢያ" description="" url="{node6}" tilt="-48.21" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node18" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="17.8289" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node18" latitude="" description="" datetime="" copyright="" info="" longitude="" title="የእንግዳ / የረዳት ክፍል " source="" author="" comment="" customnodeid="" tags="v1" heading="17.8289">
-      <mapcoords y_floorplan_percent="85.3523" x="1.66992" x_floorplan_percent="80.6366" y="-2.31262" mapid="plan01"/>
+    <userdata info="" heading="17.8289" source="" latitude="" comment="" datetime="" nodeid="node18" title="የእንግዳ / የረዳት ክፍል " author="" description="" longitude="" customnodeid="" copyright="" tags="v1">
+      <mapcoords y="-2.31262" x="1.66992" x_floorplan_percent="80.6366" mapid="plan01" y_floorplan_percent="85.3523"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="1" pan="-171.07" description="" target="79.7/-0.6/70.0" title="መግቢያ" url="{node6}" skinid="ht_node" tilt="-63.46"/>
-      <hotspot id="1" pan="-55.55" description="" target="-5.8/-12.1/70.0" title="የእንግዳ መታጠቢያ ክፍል " url="{node19}" skinid="ht_node" tilt="-56.62"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="79.7/-0.6/70.0" id="1" pan="-171.07" title="መግቢያ" description="" url="{node6}" tilt="-63.46" skinid="ht_node"/>
+      <hotspot target="-5.8/-12.1/70.0" id="1" pan="-55.55" title="የእንግዳ መታጠቢያ ክፍል " description="" url="{node19}" tilt="-56.62" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node19" hideabout="1">
-    <input levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" height="3000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" levelbias="0.400" levelbiashidpi="1.000">
-      <level preload="0" height="3000" predecode="0" width="3000"/>
-      <level preload="0" height="1500" predecode="0" width="1500"/>
-      <level preload="0" height="750" predecode="0" width="750"/>
-      <level preload="1" height="375" predecode="1" width="375"/>
+    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3000" overlap="1" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" levelingpitch="0" levelingroll="0">
+      <level preload="0" width="3000" predecode="0" height="3000"/>
+      <level preload="0" width="1500" predecode="0" height="1500"/>
+      <level preload="0" width="750" predecode="0" height="750"/>
+      <level preload="1" width="375" predecode="1" height="375"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="56.2916" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <start pan="0" projection="4" fov="70" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
+      <max scaletofit="1" pan="360" fovstereographic="270" fov="120" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata nodeid="node19" latitude="" description="" datetime="" copyright="" info="" longitude="" title="የእንግዳ መታጠቢያ ክፍል " source="" author="" comment="" customnodeid="" tags="v1" heading="56.2916">
-      <mapcoords y_floorplan_percent="85.1495" x="1.77979" x_floorplan_percent="85.9416" y="-2.30713" mapid="plan01"/>
+    <userdata info="" heading="56.2916" source="" latitude="" comment="" datetime="" nodeid="node19" title="የእንግዳ መታጠቢያ ክፍል " author="" description="" longitude="" customnodeid="" copyright="" tags="v1">
+      <mapcoords y="-2.30713" x="1.77979" x_floorplan_percent="85.9416" mapid="plan01" y_floorplan_percent="85.1495"/>
     </userdata>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" backgroundalpha="1" border="1" background="1" enabled="1" wordwrap="1" bordercolor="0x000000" textalpha="1" height="20" backgroundcolor="0xffffff" borderalpha="1" width="180" borderradius="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot id="1" pan="-183.23" description="" target="116.3/-43.9/70.0" title="የእንግዳ / የረዳት ክፍል " url="{node18}" skinid="ht_node" tilt="-58.67"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" border="1" borderradius="1" textcolor="0x000000" background="1" wordwrap="1" height="20" enabled="1" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot target="116.3/-43.9/70.0" id="1" pan="-183.23" title="የእንግዳ / የረዳት ክፍል " description="" url="{node18}" tilt="-58.67" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="90" zoomin="6" blendcolor="0x000000" zoomspeed="3.5" softedge="0" zoomoutpause="1" type="crossdissolve" enabled="1" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control rubberband="0" simulatemass="1" lockedkeyboardzoom="0" contextprojections="1" hideabout="1" speedwheel="1" dblclickfullscreen="1" invertcontrol="1" lockedkeyboard="0" contextfullscreen="1" lockedwheel="0" sensitivity="8" lockedmouse="0" invertwheel="1"/>
+    <transition type="crossdissolve" zoomout="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" enabled="1" blendtime="1" zoomin="6" zoomspeed="3.5" zoomafteroutfov="20"/>
+    <autorotate noderandom="0" useanimation="0" nodefilter="" speed="0.100" nodedelay="30.00" delay="5.00" startloaded="1" enabled="1" returntohorizon="5.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control contextprojections="1" invertcontrol="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" dblclickfullscreen="1" hideabout="1" lockedkeyboardzoom="0" rubberband="0" speedwheel="1" invertwheel="1" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata nodeid="master" latitude="" description="" datetime="" copyright="" info="" longitude="" title="3 መኝታ አፓርትመንት " source="" author="" comment="" customnodeid="" tags="" heading="0"/>
+    <userdata info="" heading="0" source="" latitude="" comment="" datetime="" nodeid="master" title="3 መኝታ አፓርትመንት " author="" description="" longitude="" customnodeid="" copyright="" tags=""/>
   </masternode>
-  <map id="plan01" zoomlevels="4" type="file" title="" floorplannorth="0" height="1973" bgcolor="rgba(53, 53, 53, 0)" width="1508" tileformat="png" transparent="1"/>
+  <map type="file" zoomlevels="4" id="plan01" bgcolor="rgba(53, 53, 53, 0)" width="1508" title="" transparent="1" height="1973" tileformat="png" floorplannorth="0"/>
 </tour>

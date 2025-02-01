@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="18043" version="6.1.11">
+<pano2vrconfig version="6.1.11" rev="18043">
   <tour>
     <start>node6</start>
     <panorama>
@@ -813,7 +813,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/c_pano_5_-_Corridor-topaz.jpeg</filename>
+        <filename>../v3/C_pano_5_-_Corridor-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -863,8 +863,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-87.43</pan>
-            <tilt>-33.51</tilt>
+            <pan>-94.83</pan>
+            <tilt>-33.06</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -976,7 +976,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_6_-_C.bath-topaz.jpeg</filename>
+        <filename>../v3/C_pano_6_-_C.bath-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1087,7 +1087,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_7_-_Bedroom_1-topaz.jpeg</filename>
+        <filename>../v3/C_pano_7_-_Bedroom_1-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1198,7 +1198,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_8_-_Linen-topaz.jpeg</filename>
+        <filename>../v3/C_pano_8_-_Linen-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1387,7 +1387,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_9_-_Bedroom_2-topaz.jpeg</filename>
+        <filename>../v3/C_pano_9_-_Bedroom_2-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1498,7 +1498,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_10_-_M.bedroom_entrance-topaz.jpeg</filename>
+        <filename>../v3/C_pano_10_-_M.bedroom_entrance-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1635,7 +1635,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_11_-_M.bed-topaz.jpeg</filename>
+        <filename>../v3/C_pano_11_-_M.bed-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1746,7 +1746,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v2/d_pano_12_-_M.bath-topaz.jpeg</filename>
+        <filename>../v3/C_pano_12_-_M.bath-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -2185,8 +2185,16 @@
           <zoomspeed>3.5</zoomspeed>
           <transitiontime>1</transitiontime>
           <zoomoutwait>1</zoomoutwait>
+          <enabled>1</enabled>
         </transition>
-        <autorotate/>
+        <autorotate>
+          <enabled>1</enabled>
+          <returntohorizon>5</returntohorizon>
+          <afterloaded>1</afterloaded>
+          <nodedelay>30</nodedelay>
+          <speed>0.1</speed>
+          <noderandom>0</noderandom>
+        </autorotate>
         <soundstransition/>
         <flyintransition>
           <enabled>1</enabled>
