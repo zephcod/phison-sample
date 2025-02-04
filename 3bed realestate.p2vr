@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="6.1.11" rev="18043">
+<pano2vrconfig rev="18043" version="6.1.11">
   <tour>
     <start>node6</start>
     <panorama>
@@ -350,6 +350,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-18.42</pan>
+            <tilt>-6.39</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>171.6</pan>
+            <tilt>-1.7</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>ሶፋ</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node20}</url>
+          <target>171.6/-1.7/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -658,6 +684,32 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-347.75</pan>
+            <tilt>-6.98</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>130.3</pan>
+            <tilt>-2.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>2</id>
+          <title>መዓድ ክፍል</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node7}</url>
+          <target>130.3/-2.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -813,7 +865,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/C_pano_5_-_Corridor-topaz.jpeg</filename>
+        <filename>../v3/20250204-F_pano_5_-_Corridor-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -863,8 +915,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-94.83</pan>
-            <tilt>-33.06</tilt>
+            <pan>-100.45</pan>
+            <tilt>-28.77</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -889,34 +941,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-358.08</pan>
-            <tilt>-32.33</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point04</id>
-          <title>ማህደር</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node12}</url>
-          <target>0.0/0.0/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-192.34</pan>
-            <tilt>-15.07</tilt>
+            <pan>-188.8</pan>
+            <tilt>-12.91</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -941,13 +967,13 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-303.08</pan>
-            <tilt>-46.58</tilt>
+            <pan>-273.74</pan>
+            <tilt>-40.56</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>28.4</pan>
-            <tilt>-0.7</tilt>
+            <pan>-81.2</pan>
+            <tilt>-0.4</tilt>
             <fov>70</fov>
           </next>
           <polygon/>
@@ -957,7 +983,59 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node11}</url>
-          <target>28.4/-0.7/70.0</target>
+          <target>-81.2/-0.4/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-341.76</pan>
+            <tilt>-25.92</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-70</pan>
+            <tilt>-1.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>መኝታ ክፍል 2</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node13}</url>
+          <target>-70.0/-1.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-26.72</pan>
+            <tilt>-30.42</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>28.2</pan>
+            <tilt>2.7</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>ዋና መኝታ ቤት</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>28.2/2.7/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -976,7 +1054,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/C_pano_6_-_C.bath-topaz.jpeg</filename>
+        <filename>../v3/20250204-F_pano_6_-_C.bath-topaz-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1026,13 +1104,13 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-189.18</pan>
-            <tilt>-27.68</tilt>
+            <pan>-189.16</pan>
+            <tilt>-29.24</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>88.8</pan>
-            <tilt>-5.6</tilt>
+            <pan>78.6</pan>
+            <tilt>-2.6</tilt>
             <fov>70</fov>
           </next>
           <polygon/>
@@ -1042,7 +1120,7 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
-          <target>88.8/-5.6/70.0</target>
+          <target>78.6/-2.6/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1052,13 +1130,13 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-196.24</pan>
-            <tilt>-19</tilt>
+            <pan>-194.07</pan>
+            <tilt>-19.11</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>-62.4</pan>
-            <tilt>-0.2</tilt>
+            <pan>-48.1</pan>
+            <tilt>-1.1</tilt>
             <fov>70</fov>
           </next>
           <polygon/>
@@ -1068,7 +1146,7 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node11}</url>
-          <target>-62.4/-0.2/70.0</target>
+          <target>-48.1/-1.1/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1087,7 +1165,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/C_pano_7_-_Bedroom_1-topaz.jpeg</filename>
+        <filename>../v3/20250204-F_pano_7_-_Bedroom_1-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1137,13 +1215,13 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-241.4</pan>
-            <tilt>-41.81</tilt>
+            <pan>-199.45</pan>
+            <tilt>-41.65</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>-91.8</pan>
-            <tilt>-3.9</tilt>
+            <pan>-46.5</pan>
+            <tilt>-0.5</tilt>
             <fov>70</fov>
           </next>
           <polygon/>
@@ -1153,7 +1231,7 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
-          <target>-91.8/-3.9/70.0</target>
+          <target>-46.5/-0.5/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1163,119 +1241,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-238.77</pan>
-            <tilt>-19.75</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>-5.2</pan>
-            <tilt>-2</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point03</id>
-          <title>የጋራ መታጠቢያ ክፍል </title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node10}</url>
-          <target>-5.2/-2.0/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-      </hotspots>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node11</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>../v3/C_pano_8_-_Linen-topaz.jpeg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan>
-          <start>0</start>
-          <min>0</min>
-          <max>360</max>
-        </pan>
-        <tilt>
-          <start>0</start>
-          <min>-90</min>
-          <max>90</max>
-        </tilt>
-        <fov>
-          <start>70</start>
-          <minunit>pixels</minunit>
-          <minpixels>2</minpixels>
-          <max>120</max>
-          <maxfovstereographic>270</maxfovstereographic>
-          <maxfovfisheye>360</maxfovfisheye>
-        </fov>
-        <flyinstart>
-          <pan>0</pan>
-          <tilt>-90</tilt>
-          <fov>170</fov>
-        </flyinstart>
-        <pannorth>0.0886877</pannorth>
-        <scaletofit>1</scaletofit>
-        <projection>rectilinear</projection>
-        <flyinprojection>stereo</flyinprojection>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-12-08T14:20:29</capturedatetime>
-        <tags>pano</tags>
-        <title>ማህደር</title>
-        <altitude>-10000</altitude>
-        <usealtitude>0</usealtitude>
-        <floorplancoordinates>
-          <floorplanid>plan01</floorplanid>
-          <x>510</x>
-          <y>937</y>
-        </floorplancoordinates>
-      </userdata>
-      <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position>
-            <pan>-303.51</pan>
-            <tilt>-31.42</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>-10.5</pan>
-            <tilt>0.1</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
-          <title>መኝታ ክፍል 2</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node13}</url>
-          <target>-10.5/0.1/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-100.98</pan>
-            <tilt>-46.53</tilt>
+            <pan>-194.52</pan>
+            <tilt>-22.79</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1298,96 +1265,18 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
-        <hotspot>
-          <position>
-            <pan>-180.06</pan>
-            <tilt>-34.76</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>-179.4</pan>
-            <tilt>-10</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>2</id>
-          <title>ማለፊያ</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node9}</url>
-          <target>-179.4/-10.0/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-205.91</pan>
-            <tilt>-35.48</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>12.5</pan>
-            <tilt>-0.9</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
-          <title>መኝታ ክፍል 1 </title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node11}</url>
-          <target>12.5/-0.9/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-185.9</pan>
-            <tilt>-11.3</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>143.6</pan>
-            <tilt>-5.3</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>3</id>
-          <title>መኖሪያ / ማረፊያ ክፍል</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node8}</url>
-          <target>143.6/-5.3/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node12</id>
+      <id>node11</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>../v3/C_pano_9_-_Bedroom_2-topaz.jpeg</filename>
+        <filename>../v3/20250204-F_pano_9_-_Bedroom_2-topaz.jpeg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -1437,39 +1326,13 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-183.32</pan>
-            <tilt>-36.56</tilt>
+            <pan>-183.71</pan>
+            <tilt>-26.64</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>-131.9</pan>
-            <tilt>-2.6</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point04</id>
-          <title>ማህደር</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node12}</url>
-          <target>-131.9/-2.6/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-179.09</pan>
-            <tilt>-22.9</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>-86.6</pan>
-            <tilt>4.2</tilt>
+            <pan>-113.7</pan>
+            <tilt>-4.6</tilt>
             <fov>70</fov>
           </next>
           <polygon/>
@@ -1479,7 +1342,33 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node14}</url>
-          <target>-86.6/4.2/70.0</target>
+          <target>-113.7/-4.6/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-201</pan>
+            <tilt>-33.43</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-148.7</pan>
+            <tilt>-3.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>2</id>
+          <title>ማለፊያ</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node9}</url>
+          <target>-148.7/-3.5/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1548,32 +1437,6 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-216.24</pan>
-            <tilt>-42.2</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>112.9</pan>
-            <tilt>0</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point04</id>
-          <title>ማህደር</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node12}</url>
-          <target>112.9/0.0/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
             <pan>-322.83</pan>
             <tilt>-31.9</tilt>
             <fov>10</fov>
@@ -1600,13 +1463,13 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-17.96</pan>
-            <tilt>-45.88</tilt>
+            <pan>-30.78</pan>
+            <tilt>-43.6</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>16.6</pan>
-            <tilt>4.6</tilt>
+            <pan>-22.5</pan>
+            <tilt>-0.2</tilt>
             <fov>70</fov>
           </next>
           <polygon/>
@@ -1616,7 +1479,59 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node16}</url>
-          <target>16.6/4.6/70.0</target>
+          <target>-22.5/-0.2/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-191.57</pan>
+            <tilt>-37.62</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>132.8</pan>
+            <tilt>0.6</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>2</id>
+          <title>ማለፊያ</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node9}</url>
+          <target>132.8/0.6/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-197.16</pan>
+            <tilt>-24.43</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>7.6</pan>
+            <tilt>-1.6</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>መኝታ ክፍል 1 </title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>7.6/-1.6/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1711,13 +1626,13 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-93.8</pan>
-            <tilt>-38.37</tilt>
+            <pan>-95.69</pan>
+            <tilt>-38.1</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>-116.2</pan>
-            <tilt>-1.8</tilt>
+            <pan>-107.1</pan>
+            <tilt>-1.5</tilt>
             <fov>70</fov>
           </next>
           <polygon/>
@@ -1727,7 +1642,7 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node16}</url>
-          <target>-116.2/-1.8/70.0</target>
+          <target>-107.1/-1.5/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1796,8 +1711,8 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-202.84</pan>
-            <tilt>-49.23</tilt>
+            <pan>-207.89</pan>
+            <tilt>-46.23</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1813,32 +1728,6 @@
           <linksubtype>unknown</linksubtype>
           <url>{node14}</url>
           <target>105.8/-1.6/70.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-182.8</pan>
-            <tilt>-25.54</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>113.6</pan>
-            <tilt>-0.8</tilt>
-            <fov>70</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point04</id>
-          <title>ማከማቻ ሳጥን </title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node12}</url>
-          <target>113.6/-0.8/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
